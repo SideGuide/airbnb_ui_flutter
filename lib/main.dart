@@ -1,12 +1,9 @@
 import 'dart:math';
-import 'package:device_preview/device_preview.dart';
+//import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
-      DevicePreview(
-        enabled: false,
-        builder: (context) => const MyApp(), // Wrap your app
-      ),
+      const MyApp(), // Wrap your app
     );
 
 class MyApp extends StatelessWidget {
